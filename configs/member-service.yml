@@ -40,3 +40,10 @@ springdoc:
     doc-expansion: none
   paths-to-match:
     - /**
+
+# cors 설정
+cors:
+  allowed:
+    -http://koreait.xyz
+    -htpp://board-service.koreait.xyz
+    -http://localhost:3000
