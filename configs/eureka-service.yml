@@ -11,4 +11,4 @@ eureka:
       defaultZone:
         - ${protocol}://${eureka.instance.hostname}:${server.port}/eureka/
   server:
-    waitTimeInMsWhenSyncEmpty: 3000 # 30초에 한번씩 인스턴스 검색
+    waitTimeInMsWhenSyncEmpty: 30000 # 30초에 한번씩 인스턴스 검색
